@@ -1,0 +1,11 @@
+spark:
+  app:
+    name: Spring Spark
+  master: local[2]
+  driver:
+    extraClassPath: target/hello-spark-0.0.1-SNAPSHOT.jar
+  executor:
+    extraClassPath: target/hello-spark-0.0.1-SNAPSHOT.jar
+
+server:
+  port: 8081
